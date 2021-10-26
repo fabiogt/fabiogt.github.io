@@ -319,28 +319,28 @@ var APP_DATA = {
       ],
       "faceSize": 1440,
       "initialViewParameters": {
-        "yaw": -2.4081005622666236,
-        "pitch": -0.007658641495638108,
+        "yaw": -1.9561117478263323,
+        "pitch": 0.2530689291345798,
         "fov": 1.3349517233366994
       },
       "linkHotspots": [
         {
-          "yaw": -1.366172804816312,
-          "pitch": 0.10962878440243884,
+          "yaw": -2.8645579155081258,
+          "pitch": 0.3113552630876377,
+          "rotation": 0,
+          "target": "3-pianerottolo-0-1-sinistra"
+        },
+        {
+          "yaw": -1.4421522295171556,
+          "pitch": 0.14701540066177188,
           "rotation": 0,
           "target": "5-piano-1-centrale"
         },
         {
-          "yaw": -1.3045155855102095,
-          "pitch": 0.019773016507773633,
+          "yaw": -1.2891893731877975,
+          "pitch": 0.02776871710580764,
           "rotation": 0,
           "target": "4-piano-1-destra"
-        },
-        {
-          "yaw": -2.8277644558859922,
-          "pitch": 0.31562625167030056,
-          "rotation": 0,
-          "target": "3-pianerottolo-0-1-sinistra"
         }
       ],
       "infoHotspots": []
@@ -384,69 +384,19 @@ var APP_DATA = {
           "yaw": -3.074736636146662,
           "pitch": -0.27197111542751173,
           "rotation": 0,
-          "target": "8-pianerottolo-1-2-destra"
+          "target": "9-pianerottolo-1-2-destra"
         },
         {
           "yaw": 0.05832243867189746,
           "pitch": -0.2821688788328096,
           "rotation": 0,
-          "target": "9-pianerottolo-1-2-sinistra"
+          "target": "8-pianerottolo-1-2-sinistra"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-pianerottolo-1-2-destra",
-      "name": "Pianerottolo 1-2 destra",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1440,
-      "initialViewParameters": {
-        "yaw": -2.061858831839327,
-        "pitch": 0.21893464468016788,
-        "fov": 1.3349517233366994
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.5063016661163893,
-          "pitch": 0.39164951051368035,
-          "rotation": 0,
-          "target": "7-pianerottolo-1-2-centrale"
-        },
-        {
-          "yaw": -3.114455667749887,
-          "pitch": -0.2951657355397028,
-          "rotation": 0,
-          "target": "10-piano-2-destra"
-        },
-        {
-          "yaw": -1.5603307282130494,
-          "pitch": 0.018873990167078247,
-          "rotation": 0,
-          "target": "9-pianerottolo-1-2-sinistra"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-pianerottolo-1-2-sinistra",
+      "id": "8-pianerottolo-1-2-sinistra",
       "name": "Pianerottolo 1-2 sinistra",
       "levels": [
         {
@@ -490,7 +440,57 @@ var APP_DATA = {
           "yaw": -2.0109668721532046,
           "pitch": 0.04326749458388868,
           "rotation": 0,
-          "target": "8-pianerottolo-1-2-destra"
+          "target": "9-pianerottolo-1-2-destra"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-pianerottolo-1-2-destra",
+      "name": "Pianerottolo 1-2 destra",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1440,
+      "initialViewParameters": {
+        "yaw": -2.15666602572718,
+        "pitch": 0.004793773188254136,
+        "fov": 1.3349517233366994
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.549632999960206,
+          "pitch": 0.39805182062187505,
+          "rotation": 0,
+          "target": "7-pianerottolo-1-2-centrale"
+        },
+        {
+          "yaw": -1.5754100765478487,
+          "pitch": 0.00558429445008457,
+          "rotation": 0,
+          "target": "8-pianerottolo-1-2-sinistra"
+        },
+        {
+          "yaw": -3.0852949261270055,
+          "pitch": -0.2960794275365277,
+          "rotation": 0,
+          "target": "10-piano-2-destra"
         }
       ],
       "infoHotspots": []
@@ -528,7 +528,7 @@ var APP_DATA = {
           "yaw": -1.7356971063954933,
           "pitch": 0.25101180210788243,
           "rotation": 0,
-          "target": "8-pianerottolo-1-2-destra"
+          "target": "9-pianerottolo-1-2-destra"
         },
         {
           "yaw": 2.960252642387749,
@@ -578,7 +578,7 @@ var APP_DATA = {
           "yaw": 2.823810804880054,
           "pitch": 0.331569844282388,
           "rotation": 0,
-          "target": "9-pianerottolo-1-2-sinistra"
+          "target": "8-pianerottolo-1-2-sinistra"
         }
       ],
       "infoHotspots": []
@@ -587,7 +587,7 @@ var APP_DATA = {
   "name": "Istituto Bosso-Monti: Scalone centrale",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
+    "autorotateEnabled": false,
     "fullscreenButton": true,
     "viewControlButtons": true
   }
